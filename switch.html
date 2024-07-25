@@ -1,0 +1,30 @@
+<script>
+    //deklarasi dan inisialisasi variabel
+    let siswa = "Budi Santoso";
+    let nilai = "B";
+    let grade = "";
+    //kode if multi kondisi pada slide sebelumnya
+    //switch case
+    switch (grade) {
+        case "A":
+            predikat = "Memuaskan";
+            break;
+        case "B":
+            predikat = "Baik";
+            break;
+        case "C":
+            predikat = "Cukup";
+            break;
+        case "D":
+            predikat = "Kurang";
+            break;
+        case "E":
+            predikat = "Buruk";
+            break;
+        default:
+            predikat = "";
+            break;
+    }
+    //cetak data
+    document.write("Siswa bernama " + siswa + " dengan nilai " + nilai + " gradenya " + predikat);
+</script>
