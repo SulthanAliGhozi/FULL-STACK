@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   
+
+<body>
+            <h2>JavaScript Arrays Scalar</h2>
+            <ul id="mobil">
+                    <li></li>
+                </ul>
+           
+    <script>
+        const cars = ["Saab", "Volvo", "BMW", "Toyota"];
+        let dataMobil = '';
+        for (let c of cars) {
+            dataMobil += `<li>${c}</li>`;
+        }
+        document.getElementById("mobil").innerHTML = dataMobil;
+    </script>
+       
+</body>
+
+</html>

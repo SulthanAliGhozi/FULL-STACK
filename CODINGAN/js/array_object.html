@@ -1,0 +1,22 @@
+<script>
+    let p1 = {
+        'nama': 'Budi',
+        'divisi': 'SDM',
+        'gaji': 7000000 
+    }; 
+    let p2 = {
+        'nama': 'Dewi',
+        'divisi': 'Keuangan',
+        'gaji': 8000000 
+    };
+    let p3 = {
+        'nama': 'Deden',
+        'divisi': 'Keuangan',
+        'gaji': 9000000 
+    };
+    let pegawai = [p1, p2, p3];
+
+    for (let i = 0; i < pegawai.length; i++) {
+        document.write(`Nama: ${pegawai[i].nama}, Divisi: ${pegawai[i].divisi}, Gaji: ${pegawai[i].gaji}<br>`);
+    }
+</script>
