@@ -1,0 +1,18 @@
+<script>
+var data = { nama: 'Inaya Azmi Taqiyya', kelas: 1, usia: 7 };
+
+document.write('--------- Cetak Keynya Saja ------------');
+for (let x in data) {
+  document.write(x + '<br>');
+}
+
+document.write('--------- Cetak Valuenya Saja -----------');
+for (let x in data) {
+  document.write(data[x] + '<br>');
+}
+
+document.write('--------- Cetak Key dan Valuenya -----------');
+for (let x in data) {
+  document.write(x + ': ' + data[x] + '<br>');
+}
+</script>
